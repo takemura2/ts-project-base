@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc -w",
+    "clean": "rm -rf ./js/",
+    "rebuild": "rm -rf ./js/ && tsc -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^15.6.0",
+    "@types/secp256k1": "^4.0.2",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "secp256k1": "^4.0.2"
   }
 }
