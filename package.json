@@ -1,7 +1,7 @@
 {
-  "name": "bitcoin-ts",
+  "name": "ts-base",
   "version": "1.0.0",
-  "description": "",
+  "description": "typescript プロジェクトのベース",
   "main": "index.js",
   "scripts": {
     "watch": "tsc -w",
@@ -13,10 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^15.6.0",
-    "@types/secp256k1": "^4.0.2",
     "typescript": "^4.2.4"
   },
-  "dependencies": {
-    "secp256k1": "^4.0.2"
-  }
+  "dependencies": {}
 }
